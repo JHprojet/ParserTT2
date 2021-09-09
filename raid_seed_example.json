@@ -1,0 +1,323 @@
+[
+    {
+        "spawn_sequence": [
+            "Terro",
+            "Terro",
+            "Jukk",
+            "Terro",
+            "Jukk",
+            "Lojak",
+            "Lojak",
+            "Lojak"
+        ],
+        "raid_info_valid_from": "2021-08-29T00:00:01",
+        "raid_info_expire_at": "2021-09-05T00:00:00",
+        "tier": "4",
+        "level": "50",
+        "titans": [
+            {
+                "enemy_id": "Enemy1",
+                "total_hp": 8270000000.0,
+                "parts": [
+                    {
+                        "part_id": "BodyHead",
+                        "total_hp": 2067500000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorHead",
+                        "total_hp": 2067500000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyChestUpper",
+                        "total_hp": 3308000000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorChestUpper",
+                        "total_hp": 2894500000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyArmUpperRight",
+                        "total_hp": 620250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorArmUpperRight",
+                        "total_hp": 620250000.0,
+                        "cursed": true
+                    },
+                    {
+                        "part_id": "BodyArmUpperLeft",
+                        "total_hp": 620250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorArmUpperLeft",
+                        "total_hp": 620250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyLegUpperRight",
+                        "total_hp": 1302525000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorLegUpperRight",
+                        "total_hp": 1240500000.0,
+                        "cursed": true
+                    },
+                    {
+                        "part_id": "BodyLegUpperLeft",
+                        "total_hp": 1302525000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorLegUpperLeft",
+                        "total_hp": 1240500000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyHandRight",
+                        "total_hp": 620250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorHandRight",
+                        "total_hp": 620250000.0,
+                        "cursed": true
+                    },
+                    {
+                        "part_id": "BodyHandLeft",
+                        "total_hp": 620250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorHandLeft",
+                        "total_hp": 620250000.0,
+                        "cursed": true
+                    }
+                ],
+                "enemy_name": "Lojak",
+                "area_debuffs": [
+                    {
+                        "bonus_type": "AllLimbsHPMult",
+                        "bonus_amount": 0.5
+                    }
+                ],
+                "cursed_debuffs": [
+                    {
+                        "bonus_type": "AfflictedDamagePerCurse",
+                        "bonus_amount": -0.06
+                    }
+                ]
+            },
+            {
+                "enemy_id": "Enemy3",
+                "total_hp": 8270000000.0,
+                "parts": [
+                    {
+                        "part_id": "BodyHead",
+                        "total_hp": 4341750000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorHead",
+                        "total_hp": 3101250000.0,
+                        "cursed": true
+                    },
+                    {
+                        "part_id": "BodyChestUpper",
+                        "total_hp": 2894500000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorChestUpper",
+                        "total_hp": 2067500000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyArmUpperRight",
+                        "total_hp": 723625000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorArmUpperRight",
+                        "total_hp": 516875000.0,
+                        "cursed": true
+                    },
+                    {
+                        "part_id": "BodyArmUpperLeft",
+                        "total_hp": 723625000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorArmUpperLeft",
+                        "total_hp": 516875000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyLegUpperRight",
+                        "total_hp": 1447250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorLegUpperRight",
+                        "total_hp": 1033750000.0,
+                        "cursed": true
+                    },
+                    {
+                        "part_id": "BodyLegUpperLeft",
+                        "total_hp": 1447250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorLegUpperLeft",
+                        "total_hp": 1033750000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyHandRight",
+                        "total_hp": 723625000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorHandRight",
+                        "total_hp": 516875000.0,
+                        "cursed": true
+                    },
+                    {
+                        "part_id": "BodyHandLeft",
+                        "total_hp": 723625000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorHandLeft",
+                        "total_hp": 516875000.0,
+                        "cursed": false
+                    }
+                ],
+                "enemy_name": "Jukk",
+                "area_debuffs": [
+                    {
+                        "bonus_type": "AllHeadHPMult",
+                        "bonus_amount": 0.5
+                    }
+                ],
+                "cursed_debuffs": [
+                    {
+                        "bonus_type": "BurstDamagePerCurse",
+                        "bonus_amount": -0.06
+                    }
+                ]
+            },
+            {
+                "enemy_id": "Enemy6",
+                "total_hp": 8270000000.0,
+                "parts": [
+                    {
+                        "part_id": "BodyHead",
+                        "total_hp": 2977200000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorHead",
+                        "total_hp": 1654000000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyChestUpper",
+                        "total_hp": 6202500000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorChestUpper",
+                        "total_hp": 3721500000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyArmUpperRight",
+                        "total_hp": 620250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorArmUpperRight",
+                        "total_hp": 310125000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyArmUpperLeft",
+                        "total_hp": 620250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorArmUpperLeft",
+                        "total_hp": 310125000.0,
+                        "cursed": true
+                    },
+                    {
+                        "part_id": "BodyLegUpperRight",
+                        "total_hp": 1240500000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorLegUpperRight",
+                        "total_hp": 620250000.0,
+                        "cursed": true
+                    },
+                    {
+                        "part_id": "BodyLegUpperLeft",
+                        "total_hp": 1240500000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorLegUpperLeft",
+                        "total_hp": 620250000.0,
+                        "cursed": true
+                    },
+                    {
+                        "part_id": "BodyHandRight",
+                        "total_hp": 620250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorHandRight",
+                        "total_hp": 310125000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "BodyHandLeft",
+                        "total_hp": 620250000.0,
+                        "cursed": false
+                    },
+                    {
+                        "part_id": "ArmorHandLeft",
+                        "total_hp": 310125000.0,
+                        "cursed": true
+                    }
+                ],
+                "enemy_name": "Terro",
+                "area_debuffs": [
+                    {
+                        "bonus_type": "AllTorsoHPMult",
+                        "bonus_amount": 0.5
+                    }
+                ],
+                "cursed_debuffs": [
+                    {
+                        "bonus_type": "BurstDamagePerCurse",
+                        "bonus_amount": -0.06
+                    }
+                ]
+            }
+        ],
+        "area_buffs": [
+            {
+                "bonus_type": "BurstChance",
+                "bonus_amount": 1.25
+            }
+        ]
+    }
+]
