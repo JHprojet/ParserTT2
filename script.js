@@ -47,6 +47,8 @@ function JSONobjectToCsv(AllRaids)
         var dateTo = AllRaids[0].raid_info_expire_at.toString().split("T")[0].split("-");
         datefrom = datefrom[2]+"/"+datefrom[1]+"/"+datefrom[0];
         dateTo = dateTo[2]+"/"+dateTo[1]+"/"+dateTo[0]
+        console.log("dateFrom = "+datefrom);
+        console.log("dateTo = "+dateTo);
         myCSVtext += R.Tier+add(R.Level)+add(R.BonusType)+add(R.BonusValue.toString())+add(R.Order[0])+add(R.Order[1])+add(R.Order[2])+add(R.Order[3])+add(R.Order[4])+add(R.Order[5])+add(R.Order[6])+add(R.Order[7])+
             //Titan 1
             add(R.Titans[0].Name)+add(R.Titans[0].totalHp)+add(R.Titans[0].debuffType)+add(R.Titans[0].debuffValue.toString())+add(R.Titans[0].cursedDebuffType)+add(R.Titans[0].cursedDebuffValue.toString())+ 
