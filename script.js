@@ -66,7 +66,7 @@ function JSONobjectToCsv(AllRaids)
             add(R.Titans[2].Head.HP)+add(R.Titans[2].Torso.HP)+add(R.Titans[2].RightArm.HP)+add(R.Titans[2].LeftArm.HP)+add(R.Titans[2].RightLeg.HP)+add(R.Titans[2].LeftLeg.HP)+add(R.Titans[2].RightHand.HP)+add(R.Titans[2].LeftHand.HP)+
             add(R.Titans[2].Head.Armor)+add(R.Titans[2].Torso.Armor)+add(R.Titans[2].RightArm.Armor)+add(R.Titans[2].LeftArm.Armor)+add(R.Titans[2].RightLeg.Armor)+add(R.Titans[2].LeftLeg.Armor)+add(R.Titans[2].RightHand.Armor)+add(R.Titans[2].LeftHand.Armor)+
             add(R.Titans[2].Head.Cursed)+add(R.Titans[2].Torso.Cursed)+add(R.Titans[2].RightArm.Cursed)+add(R.Titans[2].LeftArm.Cursed)+add(R.Titans[2].RightLeg.Cursed)+add(R.Titans[2].LeftLeg.Cursed)+add(R.Titans[2].RightHand.Cursed)+add(R.Titans[2].LeftHand.Cursed)+
-            add(AllRaids[0].raid_info_valid_from.toString().split('T')[0])+add(AllRaids[0].raid_info_expire_at.toString().split('T')[0])+"\n";
+            add(datefrom)+add(dateTo)+"\n";
             }
             else {
                 myCSVtext += add("")+add("")+add("")+add("")+add("")+add("")+ 
