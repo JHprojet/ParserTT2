@@ -80,7 +80,6 @@ function JSONobjectToCsv(AllRaids)
 }
 
 function add(A){
-    //console.log(A + ":" + typeof(A));
     if(A.includes("/")) return ";"+A;
     if(typeof(A)=="string") return ";'"+A;
     if(typeof(A)=="number") return ";"+Math.round(A);
