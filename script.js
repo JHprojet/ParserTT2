@@ -67,7 +67,7 @@ function JSONobjectToCsv(AllRaids)
             add("")+add("")+add("")+add("")+add("")+add("")+add("")+add("")+
             add("")+add("")+add("")+add("")+add("")+add("")+add("")+add("")+
             add("")+add("")+add("")+add("")+add("")+add("")+add("")+add("")+
-            add(AllRaids[0].raid_info_valid_from.toString().split('T')[0])+add(AllRaids[0].raid_info_expire_at.toString().split('T')[0])+"\n";
+            add(AllRaids[0].raid_info_valid_from.toLocaleString().split(',')[0])+add(AllRaids[0].raid_info_expire_at.toLocaleString().split(',')[0])+"\n";
             }
         });
     document.getElementById("fileContents").innerHTML = myCSVtext;
