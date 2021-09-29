@@ -43,6 +43,10 @@ function JSONobjectToCsv(AllRaids)
     AllRaids.forEach((currentRaid) =>
     {
         var R = new Raid(currentRaid);
+        var datefrom = AllRaids[0].raid_info_valid_from.toString().split("T")[0].split("-");
+        var dateTo = AllRaids[0].raid_info_expire_at.toString().split("T")[0].split("-");
+        datefrom = datefrom[2]+"/"+datefrom[1]+"/"+datefrom[0];
+        dateTo = dateTo[2]+"/"+dateTo[1]+"/"+dateTo[0]
         myCSVtext += R.Tier+add(R.Level)+add(R.BonusType)+add(R.BonusValue.toString())+add(R.Order[0])+add(R.Order[1])+add(R.Order[2])+add(R.Order[3])+add(R.Order[4])+add(R.Order[5])+add(R.Order[6])+add(R.Order[7])+
             //Titan 1
             add(R.Titans[0].Name)+add(R.Titans[0].totalHp)+add(R.Titans[0].debuffType)+add(R.Titans[0].debuffValue.toString())+add(R.Titans[0].cursedDebuffType)+add(R.Titans[0].cursedDebuffValue.toString())+ 
@@ -67,7 +71,7 @@ function JSONobjectToCsv(AllRaids)
             add("")+add("")+add("")+add("")+add("")+add("")+add("")+add("")+
             add("")+add("")+add("")+add("")+add("")+add("")+add("")+add("")+
             add("")+add("")+add("")+add("")+add("")+add("")+add("")+add("")+
-            add(AllRaids[0].raid_info_valid_from.toLocaleString().split(',')[0])+add(AllRaids[0].raid_info_expire_at.toLocaleString().split(',')[0])+"\n";
+            add(datefrom)+add(dateTo)+"\n";
             }
         });
     document.getElementById("fileContents").innerHTML = myCSVtext;
